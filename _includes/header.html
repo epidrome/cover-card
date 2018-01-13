@@ -1,0 +1,12 @@
+<div class="content">
+    {% if site.front_img %}
+    <img src="{{ site.front_img_path }}" id="fullscreen">
+    {% endif %}
+
+    {% if site.avatar %}
+        <img src="{{ site.avatar_img_path }}" id="avatar">
+    {% endif %}
+
+    <h1>{{ site.name }}</h1>
+    <h3>{{ site.description }}</h3>
+</div>
