@@ -1,5 +1,4 @@
 # Site settings
-locale: 'en-US'
 title: 'Site title'
 name: 'My name'
 description: 'I am amazing.'
@@ -30,3 +29,7 @@ favicon_img_path: 'assets/images/favicon.ico'
 # Build settings
 markdown: kramdown
 permalink: pretty
+theme: front-cover
+exclude:
+  - Gemfile
+  - Gemfile.lock
