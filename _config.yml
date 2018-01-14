@@ -1,30 +1,28 @@
 # Site settings
-name: My name
-description: "I am amazing."
-url: ""
+name: 'My name'
+description: 'I am amazing.'
+url: ''
 
 
 # Delete the lines you don't need
 # about 5 elements are recomended
-github_username:
-email: 
+github_username: ''
+email: ''
 
 
 avatar: yes
-#avatar_img_path: "imgs/avatar.jpg""
+avatar_img_path: 'images/avatar.jpg'
 # You can link to your GitHub image. That way it will get updated
 # automatically whenever you change your GitHub profile picture
-avatar_img_path: "https://avatars2.githubusercontent.com/u/17301305"
+# avatar_img_path: "https://avatars2.githubusercontent.com/u/17301305"
 
 
 front_img: yes
-front_img_path: "imgs/background.jpg"
-#front_img_path: "https://external.url/image.jpg"
+front_img_path: 'images/background.jpg'
 
 
 favicon_img: yes
-favicon_img_path: "imgs/favicon.ico"
-#favicon_img_path: "https://external.url/favicon.ico"
+favicon_img_path: 'images/favicon.ico'
 
 
 # Build settings
