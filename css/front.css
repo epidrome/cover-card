@@ -21,12 +21,12 @@ body {
 #avatar {
     height: 180px;
     border-radius: 100%;
-    border: 5px solid white;
+    border: 5px transparent;
     margin-bottom: 40px;
 }
 h1 {
     color: white;
-    font-weight: bold;
+    font-weight: normal;
     letter-spacing: 0.1em;
     font-size: 4em;
     font-family: 'Open Sans';
@@ -35,7 +35,7 @@ h1 {
 h3 {
     color: white;
     padding-bottom: 20px;
-    font-weight: thin;
+    font-weight: normal;
 }
 .content {
     padding-top: 100px;
@@ -46,10 +46,11 @@ h3 {
 ul {
     list-style: none;
     padding: 0;
+    text-align: center;
 }
 li {
     border-radius: 100%;
-    border: 2px solid white;
+    border: 2px transparent;
     color: white;
     margin: 8px;
     display: inline-block;
@@ -64,7 +65,7 @@ li:hover {
     -moz-transition: 500ms;
     transition: 500ms;
     text-decoration: none;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.25);
 }
 a {
     color: white;
