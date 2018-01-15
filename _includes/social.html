@@ -27,10 +27,6 @@
     <li><a class="fa fa-2x fa-linkedin" href="https://linkedin.com/in/{{ site.linkedin_username }}"><span class="description">LinkedIn</span></a></li>
     {% endif %}
 
-    {% if site.vine_username %}
-    <li><a class="fa fa-2x fa-vine" href="https://vine.co/{{ site.vine_username }}"><span class="description">Vine</span></a></li>
-    {% endif %}
-
     {% if site.instagram_username %}
     <li><a class="fa fa-2x fa-instagram" href="https://instagram.com/{{ site.instagram_username }}"><span class="description">Instagram</span></a></li>
     {% endif %}
@@ -79,7 +75,13 @@
     <li><a class="fa fa-2x fa-envelope" href="mailto:{{ site.email }}"><span class="description">Email</span></a></li>
     {% endif %}
 
-    {% if site.public_key_url %}
-    <li><a class="fa fa-2x fa-key" href="{{ site.public_key_url }}"><span class="description">PGP Key</span></a></li>
+    {% if site.keybase_username %}
+    <li><a class="fa fa-2x fa-key" href="https://keybase.io/{{ site.keybase_username }}"><span class="description">Keybase</span></a></li>
     {% endif %}
+
+    {% if site.telegram_username %}
+    <li><a class="fa fa-2x fa-telegram" href="https://telegram.me/{{ site.telegram_username }}"><span class="description">Telegram</span></a></li>
+    {% endif %}
+
+    {% include too_social.html %}
 </ul>

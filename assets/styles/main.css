@@ -17,11 +17,12 @@ body {
     position: fixed;
     top: 0;
     left: 0;
+    opacity: 0.8
 }
 #avatar {
     height: 180px;
     border-radius: 100%;
-    border: 5px transparent;
+    border: 3px solid white;
     margin-bottom: 40px;
 }
 h1 {
