@@ -14,7 +14,8 @@ body {
     min-width: 100%;
     width: auto;
     height: auto;
-    position: absolute;
+    position: fixed;
+    margin: auto;
     top: 0;
     left: 0;
     opacity: 0.8
