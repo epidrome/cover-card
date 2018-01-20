@@ -6,7 +6,7 @@ The aim of this theme is to remain simple and usable. As Antoine de Saint-Exuper
 
 ## Installation
 
-Fork this repository and edit the files in the **gh-pages** branch to your liking: As a first step, you may want to replace the images in the /assets/images folder and edit the `_config.yml` with your online profiles. You can test the result almoste in real-time at `yourusername.github.io/cover-card/`.
+Fork this repository and edit the files in the **gh-pages** branch to your liking: As a first step, you may want to replace the images in the /assets/images folder and edit the `_config.yml` with your online profiles. You can test the result almost in real-time at `yourusername.github.io/cover-card/`
 
 ## Contributing
 
