@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["epidrome"]
   spec.email         = ["github@epidro.me"]
 
-  spec.summary       = %q{gem version of front-cover theme}
+  spec.summary       = %q{gem version of front-cover theme for easy installation with jekyll remote theme}
   spec.homepage      = "https://github.com/epidrome/cover-card"
   spec.license       = "MIT"
 
