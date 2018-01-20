@@ -3,34 +3,23 @@ title: 'Site title'
 name: 'My name'
 description: 'I am amazing.'
 url: ''
-
+remote theme: epidrome/front-cover
 
 # Delete the lines you don't need
-# about 5 elements are recomended
+# edit the _include/too_social.html to add more profiles
 github_username: ''
 telegram_username: ''
 keybase_username: ''
 
-
 avatar: yes
 avatar_img_path: 'assets/images/avatar.jpg'
-# You can link to your GitHub image. That way it will get updated
-# automatically whenever you change your GitHub profile picture
-# avatar_img_path: "https://avatars2.githubusercontent.com/u/17301305"
-
 
 front_img: yes
 front_img_path: 'assets/images/background.jpg'
 
-
 favicon_img: yes
 favicon_img_path: 'assets/images/favicon.ico'
-
 
 # Build settings
 markdown: kramdown
 permalink: pretty
-theme: front-cover
-exclude:
-  - Gemfile
-  - Gemfile.lock
