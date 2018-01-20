@@ -40,3 +40,5 @@ favicon_img_path: 'assets/images/favicon.ico'
 # Build settings
 markdown: kramdown
 permalink: pretty
+plugins:
+  - jekyll-remote-theme
