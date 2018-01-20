@@ -3,7 +3,7 @@ title: 'Site title'
 name: 'My name'
 description: 'I am amazing.'
 url: ''
-remote_theme: epidrome/front-cover
+remote_theme: epidrome/cover-card
 
 # Delete the lines you don't need
 # edit the _include/too_social.html to add more profiles
