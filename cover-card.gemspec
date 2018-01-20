@@ -1,13 +1,13 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = "front-cover"
-  spec.version       = "0.0.7"
+  spec.name          = "cover-card"
+  spec.version       = "0.1"
   spec.authors       = ["epidrome"]
   spec.email         = ["github@epidro.me"]
 
-  spec.summary       = %q{gem version of front-cover theme by dashingcode}
-  spec.homepage      = "https://github.com/epidrome/front-cover"
+  spec.summary       = %q{gem version of front-cover theme}
+  spec.homepage      = "https://github.com/epidrome/cover-card"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|_sass|LICENSE|README)}i) }
