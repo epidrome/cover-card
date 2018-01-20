@@ -3,11 +3,11 @@ title: 'Site title'
 name: 'My name'
 description: 'I am amazing.'
 url: ''
+# Delete the baseurl line and add a CNAME file in order to use at your domain
 baseurl: '/cover-card'
 remote_theme: epidrome/cover-card
 
 # Delete the lines you don't need
-# edit the _includes/too_social.html to add more profiles
 github_username: ''
 telegram_username: ''
 keybase_username: ''
@@ -28,6 +28,7 @@ vk_username: ''
 lastfm_username: ''
 blog_url: ''
 email: ''
+# Edit the _includes/too_social.html to add more profiles
 
 avatar: yes
 avatar_img_path: 'assets/images/avatar.jpg'
