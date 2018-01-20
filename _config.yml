@@ -6,7 +6,7 @@ url: ''
 remote_theme: epidrome/cover-card
 
 # Delete the lines you don't need
-# edit the _include/too_social.html to add more profiles
+# edit the _includes/too_social.html to add more profiles
 github_username: ''
 telegram_username: ''
 keybase_username: ''
