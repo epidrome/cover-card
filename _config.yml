@@ -3,7 +3,7 @@ title: 'Site title'
 name: 'My name'
 description: 'I am amazing.'
 url: ''
-baseurl: 'cover-card'
+baseurl: '/cover-card'
 remote_theme: epidrome/cover-card
 
 # Delete the lines you don't need
