@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "front-cover"
-  spec.version       = "0.0.5"
+  spec.version       = "0.0.7"
   spec.authors       = ["epidrome"]
   spec.email         = ["github@epidro.me"]
 
