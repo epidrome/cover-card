@@ -11,14 +11,14 @@ body {
 #fullscreen {
     z-index: -999;
     min-height: 100%;
-    min-width: 100%;
-    width: auto;
+    min-width: 800px;
+    width: 100%;
     height: auto;
     position: fixed;
     margin: auto;
     top: 0;
     left: 0;
-    opacity: 0.5
+    opacity: 0.7
 }
 #avatar {
     height: 180px;
