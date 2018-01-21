@@ -9,10 +9,16 @@ body {
     margin: 0;
 }
 #fullscreen {
-    display: block;
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
+    z-index: -999;
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    position: fixed;
+    margin: auto;
+    top: 0;
+    left: 0;
+    opacity: 0.5
 }
 #avatar {
     height: 180px;
