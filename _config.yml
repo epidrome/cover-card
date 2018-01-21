@@ -2,33 +2,28 @@
 title: 'Site title'
 name: 'My name'
 description: 'I am amazing.'
-url: ''
-# Delete the baseurl line and add a CNAME file in order to use at your domain
-baseurl: '/cover-card'
-remote_theme: epidrome/cover-card
 
 # Delete the lines you don't need
-github_username: ''
-telegram_username: ''
-keybase_username: ''
-facebook_username: ''
-twitter_username: ''
-linkedin_username: ''
-instagram_username: ''
-flickr_username: ''
-codepen_username: ''
-steam_username: ''
-soundcloud_username: ''
-stack_of_username: ''
-reddit_username: ''
-medium_username:  ''
-tumblr_username: ''
-weibo_username: ''
-vk_username: ''
-lastfm_username: ''
+facebook: ''
+twitter: ''
+linkedin: ''
+instagram: ''
+flickr: ''
+github: ''
+codepen: ''
+telegram: ''
+keybase: ''
+steam: ''
+soundcloud: ''
+stack-overflow: ''
+reddit: ''
+medium:  ''
+tumblr: ''
+weibo: ''
+vk: ''
+lastfm: ''
 blog_url: ''
 email: ''
-# Edit the _includes/too_social.html to add more profiles
 
 avatar: yes
 avatar_img_path: 'assets/images/avatar.jpg'
@@ -39,8 +34,10 @@ front_img_path: 'assets/images/background.jpg'
 favicon_img: yes
 favicon_img_path: 'assets/images/favicon.ico'
 
-# Build settings
+# Advanced site settings
+baseurl: '/cover-card'
 markdown: kramdown
 permalink: pretty
+remote_theme: epidrome/cover-card
 plugins:
   - jekyll-remote-theme
