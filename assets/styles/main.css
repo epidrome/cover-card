@@ -17,7 +17,7 @@ body {
   height: auto;
   display: block;
   position: fixed;
-  z-index: -100;
+  z-index: -999;
   opacity: 0.8;
 }
 #avatar {
