@@ -8,6 +8,8 @@ In this way, you will receive future updates without pulling and resolving confl
 
 Fork this repository and edit the files in the **gh-pages** branch to your liking: As a first step, you may want to replace the images in the /assets/images folder and edit the `_config.yml` with your online profiles. You can test the result almost in real-time at `yourusername.github.io/cover-card/`
 
+The avatar image should be square and at least 200 pixels. There is no aspect ratio requirement for the background image, but it should be big enough for contemporary computer displays and dark enough in order to work for the white foreground text and icons. 
+
 ## Credits
 This page is based on the [cover-card jekyll remote theme](https://github.com/epidrome/cover-card/).
 
