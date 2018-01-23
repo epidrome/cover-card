@@ -1,15 +1,16 @@
 # Theme
 remote_theme: epidrome/cover-card
 
-# Site settings
+# Title and tag line 
 title: 'My name'
 description: 'I am amazing.'
 
+# Images
 avatar: 'avatar.jpg'
 background: 'background.jpg'
 favicon: 'favicon.ico'
 
-# Delete or comment the lines you don't need
+# Online profiles
 facebook: ''
 twitter: ''
 linkedin: ''
@@ -31,8 +32,6 @@ vk: ''
 blog_url: ''
 email: ''
 
-# Advanced site settings
-markdown: kramdown
-permalink: pretty
+# Advanced settings
 plugins:
   - jekyll-remote-theme
