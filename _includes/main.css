@@ -1,5 +1,5 @@
 body {
-    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+    font-family: Helvetica,Arial,sans-serif;
     background-color: rgba(0, 0, 0, 0);
     position: absolute;
     top: 0;
@@ -31,13 +31,13 @@ h1 {
     font-weight: normal;
     letter-spacing: 0.1em;
     font-size: 4em;
-    font-family: 'Open Sans';
+    font-family: Helvetica;
     margin: -10px 0;
 }
 h3 {
     color: white;
     padding-bottom: 20px;
-    font-weight: normal;
+    font-weight: bold;
 }
 .content {
     padding-top: 100px;
@@ -118,7 +118,7 @@ a:hover {
 .description {
     display: inline-block;
     color: white;
-    font-family: Arial;
+    font-family: Helvetica;
     margin-left: 40px;
 }
 .content {
