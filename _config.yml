@@ -24,9 +24,9 @@ vk: ''
 blog_url: ''
 email: ''
 
-avatar: 'assets/images/avatar.jpg'
-background: 'assets/images/background.jpg'
-favicon: 'assets/images/favicon.ico'
+avatar: 'avatar.jpg'
+background: 'background.jpg'
+favicon: 'favicon.ico'
 
 # Advanced site settings
 baseurl: '/cover-card'
