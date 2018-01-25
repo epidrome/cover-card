@@ -16,4 +16,4 @@ Fork this repository and submit a pull-request for a bug or an improvement at th
 
 ## Credits
 
-This gem-based theme is a modification of the original [front cover](https://dashingcode.github.io/front-cover/)
+Credits and inspiration for this theme go to [front cover theme](https://dashingcode.github.io/front-cover/), jekyll remote theme, and being lazy to keep my web page updated with the latest standards and trends.
