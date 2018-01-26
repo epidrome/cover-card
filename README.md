@@ -1,8 +1,6 @@
 # Cover Card jekyll theme
 
-Create a cover page for your social media profiles, host it for free on Github Pages, and maintain it in minutes, not hours.
-
-[Generic Demo](https://epidrome.github.io/cover-card)
+Create a cover page for your social media profiles, host it for free on Github Pages, and maintain it in minutes, not hours. [Demo](https://epidrome.github.io/cover-card)
 
 ## Make it yours
 
