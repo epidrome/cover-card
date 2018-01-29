@@ -6,6 +6,14 @@ This theme is ideal for people or organizations who are busy enjoying their life
 
 Please keep this README file because it contains the credits at the end and it might become handy after you have completely forgoten the set-up instructions.
 
+## Design rationale
+
+The design rationale of this theme is to do less than other themes: "Less is more"
+
+The majority (99%) of the availabe jekyll themes offers a blog, but I have never been able to keep blog content (or its technology) updated over time. 
+
+Let's be honest with ourselves: How does an (abandoned) blog centered web site looks to new visitors if we have not posted since two years ago?
+
 ## Make it yours
 
 [Fork this repository](https://github.com/epidrome/cover-card/fork) and edit the files to your liking: As a first step, you may want to replace the images and edit the `_config.yml` with your online profiles. You can test the result almost in real-time at the Github Pages url displayed in the Settings tab.
