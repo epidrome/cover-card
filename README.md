@@ -6,6 +6,17 @@ The aim of this theme is to remain simple and updated. As Antoine de Saint-Exupe
 
 ## Design
 
+The design of this theme is defined by the following features that IT DOES NOT HAVE:
+
+### Blog
+
+I love blogs. I have been making and following blogs since blogs existed in the early 2000s. The reality is that the vast majority of the blogs back then do not exist anymore. I can safely predict that the vast majority of the blogs that are around nowadays will not exist soon, even the popular ones. 
+
+Don't get me wrong: Jekyll is an excellent system for making blogs, but your main web site should not be build around a blog. A blog is just an add on to your main site that should be easy to turn off or to switch to the next great bloging platform, system, or social media profile that supports bloging. A blog is nice to have but it is not a must have.
+
+### Folders and files
+
+
 
 ## Implementation
 
