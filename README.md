@@ -20,7 +20,7 @@ Let's be honest with ourselves: How does an (abandoned) blog centered web site l
 
 ### Avatar or Logo
 
-The avatar image should be square and at least 200 pixels. Chances are that you have a selfie somewhere in your media storage.
+The avatar image should be square and at least 200 pixels. Chances are that you have a selfie somewhere in your media storage. If you are making a page for a business or product, then use a logo.
 
 ### Background image sets the mood
 
