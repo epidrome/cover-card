@@ -34,4 +34,4 @@ You can find advanced options (CNAME, custom social icons, styles) for this them
 
 This page is based on the [cover-card jekyll remote theme](https://github.com/epidrome/cover-card/).
 
-Photo by Anders Jildén on [Unsplash](https://unsplash.com/)
+Background photo by Anders Jildén and avatar photo by Ayo Ogunseinde, both on [Unsplash](https://unsplash.com/)
