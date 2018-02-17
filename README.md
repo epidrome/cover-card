@@ -26,6 +26,10 @@ The avatar image should be square and at least 200 pixels. Chances are that you 
 
 There is no aspect ratio requirement for the background image, but it should be big enough for contemporary (desktop, tablet, phone) computer displays and dark enough in order to work for the white foreground text and icons.
 
+### Social profiles
+
+Edit the `_config.yml` file with your social media profiles by adding the respective acount name, not the full link. You can [inspect a working example of the configuration file](https://github.com/epidrome/www-remote/blob/master/_config.yml). You can delete or comment the social media that you don't need.
+
 ### Advanced options
 
 You can find advanced options (CNAME, custom social icons, styles) for this theme in the documentation (readme) at the [master branch](https://github.com/epidrome/cover-card/tree/master).
