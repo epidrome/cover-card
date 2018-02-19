@@ -1,7 +1,7 @@
 # Theme
 remote_theme: epidrome/cover-card
 
-# Title and tag line 
+# Title and tag line
 title: 'My name'
 description: 'I am amazing.'
 
@@ -15,20 +15,21 @@ facebook: ''
 twitter: ''
 linkedin: ''
 instagram: ''
+snapchat: ''
 flickr: ''
+pinterest: ''
 github: ''
 #codepen: ''
-#telegram: ''
 #keybase: ''
 #steam: ''
 #soundcloud: ''
+#lastfm: ''
 #stack-overflow: ''
 #reddit: ''
 #medium:  ''
 #tumblr: ''
 weibo: ''
 vk: ''
-#lastfm: ''
 blog_url: ''
 email: ''
 
