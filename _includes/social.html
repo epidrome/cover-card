@@ -47,6 +47,10 @@
     <li><a class="fa fa-2x fa-steam" href="http://steamcommunity.com/id/{{ site.steam }}"><span class="description">Steam</span></a></li>
     {% endif %}
 
+    {% if site.youtube %}
+    <li><a class="fa fa-2x fa-youtube-play" href="https://youtube.com/channel/{{ site.youtube }}"><span class="description">YouTube</span></a></li>
+    {% endif %}
+
     {% if site.soundcloud %}
     <li><a class="fa fa-2x fa-soundcloud" href="https://soundcloud.com/{{ site.soundcloud }}"><span class="description">Soundcloud</span></a></li>
     {% endif %}
@@ -83,12 +87,12 @@
     <li><a class="fa fa-2x fa-key" href="https://keybase.io/{{ site.keybase }}"><span class="description">Keybase</span></a></li>
     {% endif %}
 
-    {% if site.snapchat %}
-    <li><a class="fa fa-2x fa-snapchat" href="https://snapchat.com/add/{{ site.snapchat }}"><span class="description">Snapchat</span></a></li>
-    {% endif %}
-
     {% if site.telegram %}
     <li><a class="fa fa-2x fa-paper-plane" href="https://telegram.me/{{ site.telegram }}"><span class="description">Telegram</span></a></li>
+    {% endif %}
+
+    {% if site.snapchat %}
+    <li><a class="fa fa-2x fa-snapchat" href="https://snapchat.com/add/{{ site.snapchat }}"><span class="description">Snapchat</span></a></li>
     {% endif %}
 
     {% include too_social.html %}
