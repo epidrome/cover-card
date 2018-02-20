@@ -1,0 +1,33 @@
+# Theme
+theme: cover-card
+
+# Title and tag line 
+title: 'My name'
+description: 'I am amazing.'
+
+# Images
+avatar: 'avatar.jpg'
+background: 'background.jpg'
+favicon: 'favicon.ico'
+
+# Online profiles
+facebook: ''
+twitter: ''
+linkedin: ''
+instagram: ''
+flickr: ''
+github: ''
+#codepen: ''
+#telegram: ''
+#keybase: ''
+#steam: ''
+#soundcloud: ''
+#stack-overflow: ''
+#reddit: ''
+#medium:  ''
+#tumblr: ''
+weibo: ''
+vk: ''
+#lastfm: ''
+blog_url: ''
+email: ''
