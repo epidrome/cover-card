@@ -1,5 +1,5 @@
 # Theme
-remote_theme: epidrome/cover-card
+remote_theme: 'epidrome/cover-card'
 
 # Title and tag line
 title: 'My name'
@@ -15,11 +15,10 @@ facebook: ''
 twitter: ''
 linkedin: ''
 instagram: ''
-flickr: ''
 pinterest: ''
+youtube: ''
 github: ''
 #codepen: ''
-#keybase: ''
 #steam: ''
 #soundcloud: ''
 #lastfm: ''
@@ -29,10 +28,9 @@ github: ''
 #tumblr: ''
 weibo: ''
 vk: ''
-#snapchat: ''
-telegram: ''
 blog_url: ''
 email: ''
+messenger: ''
 
 # Advanced settings
 plugins:
