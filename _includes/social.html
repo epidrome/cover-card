@@ -43,6 +43,14 @@
     <li><a class="fa fa-2x fa-codepen" href="https://codepen.io/{{ site.codepen }}"><span class="description">CodePen</span></a></li>
     {% endif %}
 
+    {% if site.stack-overflow %}
+    <li><a class="fa fa-2x fa-stack-overflow" href="https://stackoverflow.com/users/{{ site.stack-overflow }}"><span class="description">Stack Overflow</span></a></li>
+    {% endif %}
+
+    {% if site.reddit %}
+    <li><a class="fa fa-2x fa-reddit" href="https://reddit.com/user/{{ site.reddit }}"><span class="description">Reddit</span></a></li>
+    {% endif %}
+
     {% if site.steam %}
     <li><a class="fa fa-2x fa-steam" href="http://steamcommunity.com/id/{{ site.steam }}"><span class="description">Steam</span></a></li>
     {% endif %}
@@ -51,20 +59,16 @@
     <li><a class="fa fa-2x fa-youtube-play" href="https://youtube.com/channel/{{ site.youtube }}"><span class="description">YouTube</span></a></li>
     {% endif %}
 
+    {% if site.vimeo %}
+    <li><a class="fa fa-2x fa-vimeo" href="https://vimeo.com/{{ site.vimeo }}"><span class="description">Vimeo</span></a></li>
+    {% endif %}
+
     {% if site.soundcloud %}
     <li><a class="fa fa-2x fa-soundcloud" href="https://soundcloud.com/{{ site.soundcloud }}"><span class="description">Soundcloud</span></a></li>
     {% endif %}
 
     {% if site.lastfm %}
     <li><a class="fa fa-2x fa-lastfm" href="http://www.last.fm/user/{{ site.lastfm }}"><span class="description">Last.fm</span></a></li>
-    {% endif %}
-
-    {% if site.stack-overflow %}
-    <li><a class="fa fa-2x fa-stack-overflow" href="https://stackoverflow.com/users/{{ site.stack-overflow }}"><span class="description">Stack Overflow</span></a></li>
-    {% endif %}
-
-    {% if site.reddit %}
-    <li><a class="fa fa-2x fa-reddit" href="https://reddit.com/user/{{ site.reddit }}"><span class="description">Reddit</span></a></li>
     {% endif %}
 
     {% if site.medium %}
@@ -79,12 +83,16 @@
     <li><a class="fa fa-2x fa-tags" href="{{ site.blog_url }}"><span class="description">Blog</span></a></li>
     {% endif %}
 
+    {% if site.keybase %}
+    <li><a class="fa fa-2x fa-key" href="https://keybase.io/{{ site.keybase }}"><span class="description">Keybase</span></a></li>
+    {% endif %}
+
     {% if site.email %}
     <li><a class="fa fa-2x fa-envelope" href="mailto:{{ site.email }}"><span class="description">Email</span></a></li>
     {% endif %}
 
-    {% if site.keybase %}
-    <li><a class="fa fa-2x fa-key" href="https://keybase.io/{{ site.keybase }}"><span class="description">Keybase</span></a></li>
+    {% if site.mesenger %}
+    <li><a class="fa fa-2x fa-facebook-messenger" href="https://m.me/{{ site.messenger }}"><span class="description">Messenger</span></a></li>
     {% endif %}
 
     {% if site.telegram %}

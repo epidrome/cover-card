@@ -10,9 +10,9 @@ The design of this theme is defined by the following features that IT DOES NOT H
 
 ### Blog
 
-I love blogs. I have been making and following blogs since blogs existed in the early 2000s. The reality is that the vast majority of the blogs back then do not exist anymore. I can safely predict that the vast majority of the blogs that are around nowadays will not exist soon, even the popular ones. 
+I love blogs. I have been making and following blogs since blogs existed in the early 2000s. The reality is that the vast majority of the blogs back then do not exist anymore. I can safely predict that the vast majority of the blogs that are around nowadays will not exist soon, even the popular ones.
 
-Don't get me wrong: Jekyll is an excellent system for making blogs, but your main web site should not be build around a blog. A blog is just an add-on to your main site that should be easy to turn off, or to switch to the next great blogging platform, system, or social media profile that supports blogging. Even [the father of jekyll](http://tom.preston-werner.com/) is not blogging very much over the years, then why have the blog at the center of the online presence.  A blog is nice to have but it is not a must have.
+Don't get me wrong: Jekyll is an excellent system for making blogs, but your main web site should not be build around a blog. A blog is just an add-on to your main site that should be easy to turn off, or to switch to the next great blogging platform, system, or social media profile that supports blogging. Even [the father of jekyll](http://tom.preston-werner.com/) is not blogging very much over the years, then why have the blog at the center of the online presence. A blog is nice to have but it is not a must have.
 
 I understand that a jekyll theme without a blog might sound like a self contradiction, but jekyll has also motivated something even more useful than itself: seamless hosting with Github Pages. This theme takes advantage of both jekyll and Github Pages, in order to create something similar to [about.me](https://about.me/), without the price tag.
 
