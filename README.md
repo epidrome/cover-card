@@ -36,6 +36,6 @@ You can find advanced options (CNAME, custom social icons, styles) for this them
 
 ## Credits
 
-This page is based on the [cover-card jekyll remote theme](https://github.com/epidrome/cover-card/).
+This page is based on the [cover-card jekyll remote theme](https://github.com/epidrome/cover-card/tree/master).
 
 Background photo by Anders Jildén and avatar photo by Ayo Ogunseinde, both on [Unsplash](https://unsplash.com/)
