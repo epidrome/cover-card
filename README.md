@@ -28,9 +28,13 @@ There is no aspect ratio requirement for the background image, but it should be 
 
 ### Social profiles
 
-Edit the `_config.yml` file with your social media profiles by adding the respective acount name, not the full link. You can [inspect a working example of the configuration file](https://github.com/epidrome/www-remote/blob/master/_config.yml). You can delete or comment the social media that you don't need.
+Edit the `_config.yml` file with your social media profiles by adding the respective acount name, not the full link. You can delete or comment out the social media that you don't need.
 
-### Advanced options
+### Working example
+
+You can [inspect a working example of the configuration file](https://github.com/epidrome/www-remote/blob/master/_config.yml).
+
+### Expert options
 
 You can find and locally overide advanced options (custom domain name, extra social icons, font styles) for this theme in the documentation (readme) at the [master branch](https://github.com/epidrome/cover-card/tree/master).
 
