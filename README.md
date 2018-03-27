@@ -32,7 +32,7 @@ Edit the `_config.yml` file with your social media profiles by adding the respec
 
 ### Advanced options
 
-You can find advanced options (CNAME, custom social icons, styles) for this theme in the documentation (readme) at the [master branch](https://github.com/epidrome/cover-card/tree/master).
+You can find and locally overide advanced options (custom domain name, extra social icons, font styles) for this theme in the documentation (readme) at the [master branch](https://github.com/epidrome/cover-card/tree/master).
 
 ## Credits
 
