@@ -32,7 +32,7 @@ Edit the `_config.yml` file with your social media profiles by adding the respec
 
 ### Working example
 
-You can [inspect a working example of the configuration file](https://github.com/epidrome/www-remote/blob/master/_config.yml).
+You can [inspect a working example of the configuration file](https://github.com/epidrome/home/blob/master/_config.yml).
 
 ### Expert options
 
