@@ -34,6 +34,14 @@ Edit the `_config.yml` file with your social media profiles by adding the respec
 
 You can [inspect a working example of the configuration file](https://github.com/epidrome/home/blob/master/_config.yml).
 
+### Updates
+
+Please note that the theme is currently in beta, so some updates at the [master branch](https://github.com/epidrome/cover-card/tree/master) might break your site. Don't panic! 
+
+You can visit [releases](https://github.com/epidrome/cover-card/releases) and check for bugs and new features.
+
+If you wish to keep your theme frozen and not receive updates, then you can [revert your remote_theme to the last known good configuration](https://github.com/benbalter/jekyll-remote-theme) by pointing to [a particular commit](https://github.com/epidrome/cover-card/commits/master).
+
 ### Expert options
 
 You can find and locally overide advanced options (custom domain name, extra social icons, font styles) for this theme in the documentation (readme) at the [master branch](https://github.com/epidrome/cover-card/tree/master).
