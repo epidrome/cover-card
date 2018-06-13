@@ -47,6 +47,10 @@
     <li><a class="fab fa-2x fa-reddit" href="https://reddit.com/user/{{ site.reddit }}"><span class="description">Reddit</span></a></li>
     {% endif %}
 
+    {% if site.hacker-news %}
+    <li><a class="fab fa-2x fa-hacker-news" href="https://news.ycombinator.com/user?id={{ site.hacker-news}}"><span class="description">Hacker News</span></a></li>
+    {% endif %}
+
     {% if site.steam %}
     <li><a class="fab fa-2x fa-steam" href="http://steamcommunity.com/id/{{ site.steam }}"><span class="description">Steam</span></a></li>
     {% endif %}
@@ -105,10 +109,6 @@
     
     {% if site.strava %}
     <li><a class="fab fa-2x fa-strava" href="https://strava.com/athletes/{{ site.strava }}"><span class="description">Strava</span></a></li>
-    {% endif %}
-
-    {% if site.hacker-news %}
-    <li><a class="fab fa-2x fa-hacker-news" href="https://news.ycombinator.com/user?id={{ site.hacker-news}}"><span class="description">Hacker News</span></a></li>
     {% endif %}
 
     {% if site.keybase %}
