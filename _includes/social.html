@@ -10,6 +10,10 @@
     {% if site.linkedin %}
     <li><a class="fab fa-2x fa-linkedin" href="https://linkedin.com/in/{{ site.linkedin }}"><span class="description">LinkedIn</span></a></li>
     {% endif %}
+    
+    {% if site.angellist %}
+    <li><a class="fab fa-2x fa-angellist" href="https://angel.co/{{ site.angellist }}"><span class="description">AngelList</span></a></li>
+    {% endif %}
 
     {% if site.google_plus %}
     <li><a class="fab fa-2x fa-google-plus" href="https://plus.google.com/+{{ site.google_plus }}"><span class="description">Google +</span></a></li>
@@ -74,6 +78,10 @@
     {% if site.medium %}
     <li><a class="fab fa-2x fa-medium" href="https://medium.com/@{{ site.medium }}"><span class="description">Medium</span></a></li>
     {% endif %}
+    
+    {% if site.goodreads %}
+    <li><a class="fab fa-2x fa-goodreads" href="https://goodreads.com/{{ site.goodreads }}"><span class="description">goodreads</span></a></li>
+    {% endif %}
 
     {% if site.tumblr %}
     <li><a class="fab fa-2x fa-tumblr" href="https://{{ site.tumblr }}.tumblr.com/"><span class="description">Tumblr</span></a></li>
@@ -101,6 +109,10 @@
 
     {% if site.snapchat %}
     <li><a class="fab fa-2x fa-snapchat" href="https://snapchat.com/add/{{ site.snapchat }}"><span class="description">Snapchat</span></a></li>
+    {% endif %}
+    
+    {% if site.strava %}
+    <li><a class="fab fa-2x fa-strava" href="https://strava.com/athletes/{{ site.strava }}"><span class="description">Strava</span></a></li>
     {% endif %}
 
     {% include too_social.html %}
