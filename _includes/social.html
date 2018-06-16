@@ -3,12 +3,12 @@
     <li><a class="fab fa-2x fa-facebook-f" href="https://facebook.com/{{ site.facebook }}"><span class="description">Facebook</span></a></li>
     {% endif %}
 
-    {% if site.twitter %}
-    <li><a class="fab fa-2x fa-twitter" href="https://twitter.com/{{ site.twitter }}"><span class="description">Twitter</span></a></li>
-    {% endif %}
-
     {% if site.linkedin %}
     <li><a class="fab fa-2x fa-linkedin" href="https://linkedin.com/in/{{ site.linkedin }}"><span class="description">LinkedIn</span></a></li>
+    {% endif %}
+    
+    {% if site.angellist %}
+    <li><a class="fab fa-2x fa-angellist" href="https://angel.co/{{ site.angellist }}"><span class="description">AngelList</span></a></li>
     {% endif %}
 
     {% if site.google_plus %}
@@ -21,10 +21,6 @@
 
     {% if site.weibo %}
     <li><a class="fab fa-2x fa-weibo" href="https://weibo.com/{{ site.weibo }}"><span class="description">微博</span></a></li>
-    {% endif %}
-
-    {% if site.instagram %}
-    <li><a class="fab fa-2x fa-instagram" href="https://instagram.com/{{ site.instagram }}"><span class="description">Instagram</span></a></li>
     {% endif %}
 
     {% if site.flickr %}
@@ -51,6 +47,10 @@
     <li><a class="fab fa-2x fa-reddit" href="https://reddit.com/user/{{ site.reddit }}"><span class="description">Reddit</span></a></li>
     {% endif %}
 
+    {% if site.hacker-news %}
+    <li><a class="fab fa-2x fa-hacker-news" href="https://news.ycombinator.com/user?id={{ site.hacker-news}}"><span class="description">Hacker News</span></a></li>
+    {% endif %}
+
     {% if site.steam %}
     <li><a class="fab fa-2x fa-steam" href="http://steamcommunity.com/id/{{ site.steam }}"><span class="description">Steam</span></a></li>
     {% endif %}
@@ -71,8 +71,16 @@
     <li><a class="fab fa-2x fa-lastfm" href="http://www.last.fm/user/{{ site.lastfm }}"><span class="description">Last.fm</span></a></li>
     {% endif %}
 
+    {% if site.twitter %}
+    <li><a class="fab fa-2x fa-twitter" href="https://twitter.com/{{ site.twitter }}"><span class="description">Twitter</span></a></li>
+    {% endif %}
+
     {% if site.medium %}
     <li><a class="fab fa-2x fa-medium" href="https://medium.com/@{{ site.medium }}"><span class="description">Medium</span></a></li>
+    {% endif %}
+    
+    {% if site.goodreads %}
+    <li><a class="fab fa-2x fa-goodreads" href="https://goodreads.com/{{ site.goodreads }}"><span class="description">goodreads</span></a></li>
     {% endif %}
 
     {% if site.tumblr %}
@@ -81,14 +89,6 @@
 
     {% if site.blog_url %}
     <li><a class="fas fa-2x fa-tags" href="{{ site.blog_url }}"><span class="description">Blog</span></a></li>
-    {% endif %}
-
-    {% if site.keybase %}
-    <li><a class="fab fa-2x fa-keybase" href="https://keybase.io/{{ site.keybase }}"><span class="description">Keybase</span></a></li>
-    {% endif %}
-
-    {% if site.email %}
-    <li><a class="fas fa-2x fa-envelope" href="mailto:{{ site.email }}"><span class="description">Email</span></a></li>
     {% endif %}
 
     {% if site.messenger %}
@@ -101,6 +101,22 @@
 
     {% if site.snapchat %}
     <li><a class="fab fa-2x fa-snapchat" href="https://snapchat.com/add/{{ site.snapchat }}"><span class="description">Snapchat</span></a></li>
+    {% endif %}
+
+    {% if site.instagram %}
+    <li><a class="fab fa-2x fa-instagram" href="https://instagram.com/{{ site.instagram }}"><span class="description">Instagram</span></a></li>
+    {% endif %}
+    
+    {% if site.strava %}
+    <li><a class="fab fa-2x fa-strava" href="https://strava.com/athletes/{{ site.strava }}"><span class="description">Strava</span></a></li>
+    {% endif %}
+
+    {% if site.keybase %}
+    <li><a class="fab fa-2x fa-keybase" href="https://keybase.io/{{ site.keybase }}"><span class="description">Keybase</span></a></li>
+    {% endif %}
+
+    {% if site.email %}
+    <li><a class="fas fa-2x fa-envelope" href="mailto:{{ site.email }}"><span class="description">Email</span></a></li>
     {% endif %}
 
     {% include too_social.html %}
