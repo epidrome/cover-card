@@ -115,5 +115,9 @@
     <li><a class="fab fa-2x fa-strava" href="https://strava.com/athletes/{{ site.strava }}"><span class="description">Strava</span></a></li>
     {% endif %}
 
+    {% if site.hackernews %}
+    <li><a class="fab fa-2x fa-hackernews" href="https://news.ycombinator.com/user?id={{ site.hackernews}}"><span class="description">Hacker News</span></a></li>
+    {% endif %}
+
     {% include too_social.html %}
 </ul>
