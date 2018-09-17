@@ -28,7 +28,7 @@ There is no aspect ratio requirement for the background image, but it should be 
 
 ### Social profiles
 
-Edit the `_config.yml` file with your social media profiles by adding the respective acount name, not the full link. You can delete or comment out the social media that you don't need.
+Edit the `_config.yml` file with your social media profiles by adding the respective account name, not the full link. You can delete or comment out the social media that you don't need.
 
 ### Working example
 
