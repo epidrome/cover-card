@@ -38,6 +38,10 @@
     {% if site.github-user %}
     <li><a class="fab fa-2x fa-github" href="https://github.com/{{ site.github-user }}"><span class="description">GitHub</span></a></li>
     {% endif %}
+    
+     {% if site.gilab-user %}
+    <li><a class="fab fa-2x fa-gitlab" href="https://gitlab.com/{{ site.gitlab-user }}"><span class="description">GitLab</span></a></li>
+    {% endif %}
 
     {% if site.codepen %}
     <li><a class="fab fa-2x fa-codepen" href="https://codepen.io/{{ site.codepen }}"><span class="description">CodePen</span></a></li>
