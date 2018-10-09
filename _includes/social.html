@@ -60,7 +60,7 @@
     {% endif %}
 
     {% if site.youtube %}
-    <li><a class="fab fa-2x fa-youtube-play" href="https://youtube.com/channel/{{ site.youtube }}"><span class="description">YouTube</span></a></li>
+    <li><a class="fab fa-2x fa-youtube" href="https://youtube.com/channel/{{ site.youtube }}"><span class="description">YouTube</span></a></li>
     {% endif %}
 
     {% if site.vimeo %}
@@ -83,6 +83,10 @@
     <li><a class="fab fa-2x fa-tumblr" href="https://{{ site.tumblr }}.tumblr.com/"><span class="description">Tumblr</span></a></li>
     {% endif %}
 
+    {% if site.dribbble %}
+    <li><a class="fab fa-2x fa-dribbble" href="https://dribbble.com/{{ site.dribbble }}"><span class="description">Dribbble</span></a></li>
+    {% endif %}
+    
     {% if site.blog_url %}
     <li><a class="fas fa-2x fa-tags" href="{{ site.blog_url }}"><span class="description">Blog</span></a></li>
     {% endif %}
