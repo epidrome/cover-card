@@ -22,7 +22,7 @@
   GitHub Pages, and the operating system you are on or tested with.
 -->
 
-- **Cover Card Mistakes version:** 
+- **Cover Card version:** 
 - **Jekyll version:**
 - **GitHub Pages hosted:** yes/no
 - **Operating system:** 
