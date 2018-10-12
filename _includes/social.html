@@ -1,5 +1,5 @@
 <ul>
-    {% assign links = '' | split: '' %}
+    {% assign links = null | compact %}
     {% if site.social-order %}
         {% for link in site.social-order %}
             {% assign link-elem = include.links | where: "name", link %}
