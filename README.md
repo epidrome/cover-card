@@ -40,7 +40,9 @@ Please note that the theme is currently in beta, so some updates at the [master 
 
 You can visit [releases](https://github.com/epidrome/cover-card/releases) and check for bugs and new features.
 
-If you wish to keep your theme frozen and not receive updates, then you can [revert your remote_theme to the last known good configuration](https://github.com/benbalter/jekyll-remote-theme) by pointing to [a particular commit](https://github.com/epidrome/cover-card/commits/master).
+If you wish to keep your theme frozen and not receive updates, then you can [revert your remote_theme to the last known good configuration](https://github.com/benbalter/jekyll-remote-theme):
+
+> You may also optionally specify a branch, tag, or commit to use by appending an @ and the Git ref (e.g., epidrome/cover-card@v0.3). If you don't specify a Git ref, the master branch will be used.
 
 ### Expert options
 
