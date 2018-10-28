@@ -30,6 +30,10 @@ There is no aspect ratio requirement for the background image, but it should be 
 
 Edit the `_config.yml` file with your social media profiles by adding the respective account name, not the full link. You can delete or comment out the social media that you don't need.
 
+### Domain name
+
+Github Pages supports free custom domain names, so it is worth buying a domain name and puting it at the settings. If you want to use the theme with you user page (ie. username.github.io), then delete (or rename) your `master branch` and rename your `gh-branch` to `master` #13
+
 ### Working example
 
 You can [inspect a working example of the configuration file](https://github.com/epidrome/home/blob/master/_config.yml).
