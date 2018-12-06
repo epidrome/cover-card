@@ -2,37 +2,27 @@
 remote_theme: 'epidrome/cover-card'
 
 # Title and tag line
-title: 'My name'
-description: 'I am amazing.'
+title: 'jure zebec'
+description: '^ ^ ^'
 
 # Images
-avatar: 'avatar.jpg'
-background: 'background.jpg'
+avatar: 'jadran.jpg'
+background: 'modra.jpg'
 favicon: 'favicon.ico'
 
 # Online profiles
-dribbble: ''
-facebook: ''
-twitter: ''
-linkedin: ''
-instagram: ''
-pinterest: ''
-youtube: ''
-github-user: ''
+#facebook: ''
+twitter: '@jurezebec'
+#youtube: ''
+#github-user: ''
 #gitlab-user: ''
 #codepen: ''
-#steam: ''
-#soundcloud: ''
-#lastfm: ''
-#stack-overflow: ''
-#reddit: ''
 #medium:  ''
 #tumblr: ''
-weibo: ''
-vk: ''
-blog_url: ''
-email: ''
-messenger: ''
+#blog_url: ''
+#email: ''
+#messenger: ''
+emailform: 'https://kontactr.com/user/jure'
 
 # Advanced settings
 plugins:
