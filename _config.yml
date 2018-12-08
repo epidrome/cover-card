@@ -1,5 +1,5 @@
 # Theme
-remote_theme: 'epidrome/cover-card@v0.2'
+remote_theme: 'epidrome/cover-card'
 
 # Title and tag line
 title: 'jure zebec'
