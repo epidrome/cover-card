@@ -18,7 +18,9 @@ I understand that a jekyll theme without a blog might sound like a self contradi
 
 ### Folders and files
 
+Honestly, I do not like hierarchies. Having multiple files spread over multiple folders, which include more folders and files is my definition of disorder. In my view, a few files (less than 10) with sensible names provide transparency and facilitate readability and edits.
 
+Of course, there are exceptions. Sometimes, there are so many files, or the files have an inherent grouping attribute, or there is an upstream requirement for a particular folder structure. So, some of the advanced options of the theme are available in folders (e.g., custom social media accounts and their icons).
 
 ## Implementation
 
