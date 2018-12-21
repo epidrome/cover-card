@@ -16,7 +16,7 @@ Let's be honest with ourselves: How does an (abandoned) blog centered web site l
 
 ## Make it yours
 
-[Fork this repository](https://github.com/epidrome/cover-card/fork) and edit the files to your liking: As a first step, you may want to replace the images and edit the `_config.yml` with your online profiles. You can test the result almost in real-time at the Github Pages url displayed in the Settings tab.
+[Fork this repository](https://github.com/epidrome/cover-card/fork) and edit the files to your liking: As a first step, you may want to replace the images and edit the `_config.yml` with your online profiles. You can test the result almost in real-time at the Github Pages url displayed in the Settings tab (gh-pages branch).
 
 ### Avatar or Logo
 
@@ -30,6 +30,10 @@ There is no aspect ratio requirement for the background image, but it should be 
 
 Edit the `_config.yml` file with your social media profiles by adding the respective account name, not the full link. You can delete or comment out the social media that you don't need.
 
+### Domain name
+
+Github Pages supports free custom domain names, so it is worth buying a domain name and puting it at the settings. If you want to use the theme with you user page (ie. username.github.io), then delete (or rename) your `master branch` and rename your `gh-branch` to `master` #13
+
 ### Working example
 
 You can [inspect a working example of the configuration file](https://github.com/epidrome/home/blob/master/_config.yml).
@@ -40,7 +44,9 @@ Please note that the theme is currently in beta, so some updates at the [master 
 
 You can visit [releases](https://github.com/epidrome/cover-card/releases) and check for bugs and new features.
 
-If you wish to keep your theme frozen and not receive updates, then you can [revert your remote_theme to the last known good configuration](https://github.com/benbalter/jekyll-remote-theme) by pointing to [a particular commit](https://github.com/epidrome/cover-card/commits/master).
+If you wish to keep your theme frozen and not receive updates, then you can [revert your remote_theme to the last known good configuration](https://github.com/benbalter/jekyll-remote-theme):
+
+> You may also optionally specify a branch, tag, or commit to use by appending an @ and the Git ref (e.g., epidrome/cover-card@v0.3). If you don't specify a Git ref, the master branch will be used.
 
 ### Expert options
 
