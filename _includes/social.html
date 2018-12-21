@@ -11,9 +11,10 @@
 
     {% for link in links %}
         {% assign config-value = site[link.name] %}
+        {% assign default-icon-class = "fab fa-2x fa-" | append: link.name %}
         {% if config-value %}
         <li>
-          <a class="{{ link.icon-class | default: 'fab fa-2x {{ link.name }}' }}" href="{{ link.url-scheme | default: '//' }}{{ link.url-pattern | replace: '__VALUE__', config-value }}">
+          <a class="{{ link.icon-class | default: default-icon-class }}" href="{{ link.url-scheme | default: '//' }}{{ link.url-pattern | replace: '__VALUE__', config-value }}">
             <span class="description">{{ link.name }}</span>
           </a>
         </li>
