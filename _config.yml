@@ -27,15 +27,16 @@ github: 'mygithub'
 #stack-overflow: ''
 #reddit: ''
 #medium:  ''
-#tumblr: ''
+tumblr: 'mytumblr'
 weibo: 'myweibo'
 vk: 'myvk'
 blog_url: 'myblog.blog.com'
 email: 'hello@example.com'
 messenger: 'myfbchat'
 
-social-order: [github, facebook, twitter, instagram, pinterest, linkedin, youtube, github, vk, weibo, dribbble, messenger, blog_url, email]
+social-order: [github, facebook, twitter, instagram, tumblr, pinterest, linkedin, youtube, github, vk, weibo, dribbble, messenger, blog_url, email]
 
 # Advanced settings
 plugins:
   - jekyll-remote-theme
+  - jekyll-admin

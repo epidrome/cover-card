@@ -1,0 +1,110 @@
+# yaml manifest of supported social links
+# requirements:
+# `name`
+#     - plain-text name of the site (e.g. twitter)
+#     - **mandatory**
+# `url-pattern`
+#     - site URL pattern containing a placeholder string (e.g. twitter.com/__VALUE__)
+#     - placeholder will be replaced by username or value specified in _config.yml (e.g. twitter.com/mytwitter)
+#     - **mandatory** (for non-email type links)
+# `url-scheme`
+#     - the hardcoded URI/URN url-scheme (e.g. https://)
+#     - can be one of: ['https://', 'http://', 'mailto:']
+#     - defaults to '//'
+#     - **optional**
+# `icon-class`
+#     - the font awesome icon class names
+#     - font-awesome free and supports `fas` (solid) and `fab` (brands) styles
+#     - defaults to `fab` style and uses value of `name` attribute (e.g. fab fa-2x fa-twitter)
+#     - **optional**
+#
+- name: facebook
+  url-pattern: facebook.com/__VALUE__
+  icon-class: fab fa-2x fa-facebook-f
+
+- name: twitter
+  url-pattern: twitter.com/__VALUE__
+
+- name: linkedin
+  url-pattern: linkedin.com/in/__VALUE__
+
+- name: google-plus
+  url-pattern: plus.google.com/+__VALUE__
+
+- name: vk
+  url-pattern: vk.com/__VALUE__
+
+- name: weibo
+  url-pattern: weibo.com/__VALUE__
+
+- name: instagram
+  url-pattern: instagram.com/__VALUE__
+
+- name: flickr
+  url-pattern: flickr.com/__VALUE__
+
+- name: pinterest
+  url-pattern: pinterest.com/__VALUE__
+
+- name: github
+  url-pattern: github.com/__VALUE__
+
+- name: gitlab
+  url-pattern: gitlab.com/__VALUE__
+
+- name: codepen
+  url-pattern: codepen.com/__VALUE__
+
+- name: stack-overflow
+  url-pattern: stackoverflow.com/users/__VALUE__
+
+- name: reddit
+  url-pattern: reddit.com/user/__VALUE__
+
+- name: steam
+  url-pattern: steamcommunity.com/id/__VALUE__
+
+- name: youtube
+  url-pattern: youtube.com/__VALUE__
+
+- name: vimeo
+  url-pattern: vimeo.com/__VALUE__
+
+- name: soundcloud 
+  url-pattern: soundcloud.com/__VALUE__
+
+- name: lastfm
+  url-pattern: last.fm/user/__VALUE__
+
+- name: medium
+  url-pattern: medium.com/@__VALUE__
+
+- name: tumblr 
+  url-pattern: __VALUE__.tumblr.com
+
+- name: dribbble 
+  url-pattern: dribbble.com/__VALUE__
+
+- name: keybase
+  url-pattern: keybase.io/__VALUE__
+
+- name: facebook-messenger 
+  url-pattern: m.me/__VALUE__
+
+- name: telegram
+  url-pattern: telegram.me/__VALUE__
+
+- name: snapchat 
+  url-pattern: snapchat.com/add/__VALUE__
+
+- name: quora
+  url-pattern: www.quora.com/profile/__VALUE__
+
+- name: blog-url
+  url-pattern: __VALUE__
+  icon-class: fas fa-2x fa-tags
+
+- name: email
+  url-scheme: 'mailto:'
+  url-pattern: '__VALUE__'
+  icon-class: fas fa-2x fa-envelope
