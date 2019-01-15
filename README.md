@@ -1,5 +1,13 @@
 # Cover Card landing page theme
 
+## Quick set-up
+
+1. [Fork this repository](https://github.com/epidrome/cover-card/fork)
+2. Edit the `_config.yml` with your online presence accounts and upload a background and an avatar image
+3. Go to `Settings`, scroll down to `Github Pages` and find your new home page link
+
+## Introduction
+
 Create a cover page for your social media profiles, host it for free on Github Pages, and maintain it in minutes, not hours. [Demo](https://epidrome.github.io/cover-card)
 
 This theme is ideal for people or organizations who are busy enjoying their life or business and who want a simple business card for their online presence.
