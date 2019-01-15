@@ -1,4 +1,4 @@
-# Cover Card jekyll theme
+# Cover Card landing page theme
 
 Create a cover page for your social media profiles, host it for free on Github Pages, and maintain it in minutes, not hours. [Demo](https://epidrome.github.io/cover-card)
 
