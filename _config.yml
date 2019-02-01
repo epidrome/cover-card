@@ -34,9 +34,120 @@ blog_url: 'myblog.blog.com'
 email: 'hello@example.com'
 messenger: 'myfbchat'
 
-social-order: [github, facebook, twitter, instagram, tumblr, pinterest, linkedin, youtube, github, vk, weibo, dribbble, messenger, blog_url, email]
+social_order: [github, facebook, twitter, instagram, tumblr, pinterest, linkedin, youtube, github, vk, weibo, dribbble, messenger, blog_url, email]
 
 # Advanced settings
 plugins:
   - jekyll-remote-theme
   - jekyll-admin
+
+# Yaml manifest of supported social links
+# Requirements:
+# `name`
+#     - plain-text name of the site (e.g. twitter)
+#     - **mandatory**
+# `url_pattern`
+#     - site URL pattern containing a placeholder string (e.g. twitter.com/__USERNAME__)
+#     - placeholder will be replaced by username or value specified in _config.yml (e.g. twitter.com/mytwitter)
+#     - **mandatory** (for non-email type links)
+# `url_scheme`
+#     - the hardcoded URI/URN url_scheme (e.g. https://)
+#     - can be one of: ['https://', 'http://', 'mailto:']
+#     - defaults to '//'
+#     - **optional**
+# `icon_class`
+#     - the font awesome icon class names
+#     - font-awesome free and supports `fas` (solid) and `fab` (brands) styles
+#     - defaults to `fab` style and uses value of `name` attribute (e.g. fab fa-2x fa-twitter)
+#     - **optional**
+social_links:
+  - name: facebook
+    url_pattern: facebook.com/__USERNAME__
+    icon_class: fab fa-2x fa-facebook-f
+
+  - name: twitter
+    url_pattern: twitter.com/__USERNAME__
+
+  - name: linkedin
+    url_pattern: linkedin.com/in/__USERNAME__
+
+  - name: google-plus
+    url_pattern: plus.google.com/+__USERNAME__
+
+  - name: vk
+    url_pattern: vk.com/__USERNAME__
+
+  - name: weibo
+    url_pattern: weibo.com/__USERNAME__
+
+  - name: instagram
+    url_pattern: instagram.com/__USERNAME__
+
+  - name: flickr
+    url_pattern: flickr.com/__USERNAME__
+
+  - name: pinterest
+    url_pattern: pinterest.com/__USERNAME__
+
+  - name: github
+    url_pattern: github.com/__USERNAME__
+
+  - name: gitlab
+    url_pattern: gitlab.com/__USERNAME__
+
+  - name: codepen
+    url_pattern: codepen.com/__USERNAME__
+
+  - name: stack-overflow
+    url_pattern: stackoverflow.com/users/__USERNAME__
+
+  - name: reddit
+    url_pattern: reddit.com/user/__USERNAME__
+
+  - name: steam
+    url_pattern: steamcommunity.com/id/__USERNAME__
+
+  - name: youtube
+    url_pattern: youtube.com/__USERNAME__
+
+  - name: vimeo
+    url_pattern: vimeo.com/__USERNAME__
+
+  - name: soundcloud
+    url_pattern: soundcloud.com/__USERNAME__
+
+  - name: lastfm
+    url_pattern: last.fm/user/__USERNAME__
+
+  - name: medium
+    url_pattern: medium.com/@__USERNAME__
+
+  - name: tumblr
+    url_pattern: __USERNAME__.tumblr.com
+
+  - name: dribbble
+    url_pattern: dribbble.com/__USERNAME__
+
+  - name: keybase
+    url_pattern: keybase.io/__USERNAME__
+
+  - name: facebook-messenger
+    url_pattern: m.me/__USERNAME__
+
+  - name: telegram
+    url_pattern: telegram.me/__USERNAME__
+
+  - name: snapchat
+    url_pattern: snapchat.com/add/__USERNAME__
+
+  - name: quora
+    url_pattern: www.quora.com/profile/__USERNAME__
+
+  - name: blog-url
+    url_pattern: __USERNAME__
+    icon_class: fas fa-2x fa-tags
+
+  - name: email
+    url_scheme: 'mailto:'
+    url_pattern: '__USERNAME__'
+    icon_class: fas fa-2x fa-envelope
