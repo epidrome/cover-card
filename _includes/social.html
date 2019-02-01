@@ -1,20 +1,20 @@
 <ul>
     {% assign links = null | compact %}
-    {% if site.social-order %}
-        {% for link in site.social-order %}
-            {% assign link-elem = include.links | where: "name", link %}
-            {% assign links = links | concat: link-elem %}
+    {% if site.social_order %}
+        {% for link in site.social_order %}
+            {% assign link_elem = site.social_links | where: "name", link %}
+            {% assign links = links | concat: link_elem %}
         {% endfor %}
     {% else %}
-        {% assign links = include.links %}
+        {% assign links = site.social_links %}
     {% endif %}
 
     {% for link in links %}
-        {% assign config-value = site[link.name] %}
-        {% assign default-icon-class = "fab fa-2x fa-" | append: link.name %}
-        {% if config-value %}
+        {% assign username = site[link.name] %}
+        {% assign default_icon_class = "fab fa-2x fa-" | append: link.name %}
+        {% if username %}
         <li>
-          <a class="{{ link.icon-class | default: default-icon-class }}" href="{{ link.url-scheme | default: '//' }}{{ link.url-pattern | replace: '__VALUE__', config-value }}">
+          <a class="{{ link.icon_class | default: default_icon_class }}" href="{{ link.url_scheme | default: '//' }}{{ link.url_pattern | replace: '__USERNAME__', username }}">
             <span class="description">{{ link.name }}</span>
           </a>
         </li>
