@@ -93,8 +93,9 @@ social-links:
     url-pattern: github.com/__USERNAME__
     icon-class: fab fa-2x fa-github
 
-  - name: gitlab
+  - name: gitlab-user
     url-pattern: gitlab.com/__USERNAME__
+    icon-class: fab fa-2x fa-gitlab
 
   - name: codepen
     url-pattern: codepen.com/__USERNAME__
@@ -132,8 +133,9 @@ social-links:
   - name: keybase
     url-pattern: keybase.io/__USERNAME__
 
-  - name: facebook-messenger
+  - name: messenger
     url-pattern: m.me/__USERNAME__
+    icon-class: fab fa-2x fa-facebook-messenger
 
   - name: telegram
     url-pattern: telegram.me/__USERNAME__
