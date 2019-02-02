@@ -34,7 +34,7 @@ blog_url: 'myblog.blog.com'
 email: 'hello@example.com'
 messenger: 'myfbchat'
 
-social-links-order: [github-user, facebook, twitter, instagram, tumblr, pinterest, linkedin, youtube,  vk, weibo, dribbble, messenger, blog_url, email]
+social-links-order: [github-user, facebook, twitter, instagram, tumblr, pinterest, linkedin, youtube, vk, weibo, dribbble, messenger, blog_url, email]
 
 # Advanced settings
 plugins:
@@ -89,8 +89,9 @@ social-links:
   - name: pinterest
     url-pattern: pinterest.com/__USERNAME__
 
-  - name: github
+  - name: github-user
     url-pattern: github.com/__USERNAME__
+    icon-class: fab fa-2x fa-github
 
   - name: gitlab
     url-pattern: gitlab.com/__USERNAME__
@@ -143,8 +144,8 @@ social-links:
   - name: quora
     url-pattern: www.quora.com/profile/__USERNAME__
 
-  - name: blog-url
-    url-pattern: __USERNAME__
+  - name: blog_url
+    url-pattern: '__USERNAME__'
     icon-class: fas fa-2x fa-tags
 
   - name: email
