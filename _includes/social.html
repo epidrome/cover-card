@@ -1,115 +1,23 @@
 <ul>
-    {% if site.facebook %}
-    <li><a class="fab fa-2x fa-facebook-f" href="https://facebook.com/{{ site.facebook }}"><span class="description">Facebook</span></a></li>
+    {% assign links = null | compact %}
+    {% if site.social-links-order %}
+        {% for link in site.social-links-order %}
+            {% assign link-elem = site.social-links | where: "name", link %}
+            {% assign links = links | concat: link-elem %}
+        {% endfor %}
+    {% else %}
+        {% assign links = site.social-links %}
     {% endif %}
 
-    {% if site.twitter %}
-    <li><a class="fab fa-2x fa-twitter" href="https://twitter.com/{{ site.twitter }}"><span class="description">Twitter</span></a></li>
-    {% endif %}
-
-    {% if site.linkedin %}
-    <li><a class="fab fa-2x fa-linkedin" href="https://linkedin.com/in/{{ site.linkedin }}"><span class="description">LinkedIn</span></a></li>
-    {% endif %}
-
-    {% if site.google_plus %}
-    <li><a class="fab fa-2x fa-google-plus" href="https://plus.google.com/+{{ site.google_plus }}"><span class="description">Google +</span></a></li>
-    {% endif %}
-
-    {% if site.vk %}
-    <li><a class="fab fa-2x fa-vk" href="https://vk.com/{{ site.vk }}"><span class="description">ВКонтакте</span></a></li>
-    {% endif %}
-
-    {% if site.weibo %}
-    <li><a class="fab fa-2x fa-weibo" href="https://weibo.com/{{ site.weibo }}"><span class="description">微博</span></a></li>
-    {% endif %}
-
-    {% if site.instagram %}
-    <li><a class="fab fa-2x fa-instagram" href="https://instagram.com/{{ site.instagram }}"><span class="description">Instagram</span></a></li>
-    {% endif %}
-
-    {% if site.flickr %}
-    <li><a class="fab fa-2x fa-flickr" href="https://flickr.com/photos/{{ site.flickr }}"><span class="description">Flickr</span></a></li>
-    {% endif %}
-
-    {% if site.pinterest %}
-    <li><a class="fab fa-2x fa-pinterest" href="https://pinterest.com/{{ site.pinterest }}"><span class="description">Pinterest</span></a></li>
-    {% endif %}
-
-    {% if site.github-user %}
-    <li><a class="fab fa-2x fa-github" href="https://github.com/{{ site.github-user }}"><span class="description">GitHub</span></a></li>
-    {% endif %}
-    
-    {% if site.gitlab-user %}
-    <li><a class="fab fa-2x fa-gitlab" href="https://gitlab.com/{{ site.gitlab-user }}"><span class="description">GitLab</span></a></li>
-    {% endif %}
-
-    {% if site.codepen %}
-    <li><a class="fab fa-2x fa-codepen" href="https://codepen.io/{{ site.codepen }}"><span class="description">CodePen</span></a></li>
-    {% endif %}
-
-    {% if site.stack-overflow %}
-    <li><a class="fab fa-2x fa-stack-overflow" href="https://stackoverflow.com/users/{{ site.stack-overflow }}"><span class="description">Stack Overflow</span></a></li>
-    {% endif %}
-
-    {% if site.reddit %}
-    <li><a class="fab fa-2x fa-reddit" href="https://reddit.com/user/{{ site.reddit }}"><span class="description">Reddit</span></a></li>
-    {% endif %}
-
-    {% if site.steam %}
-    <li><a class="fab fa-2x fa-steam" href="http://steamcommunity.com/id/{{ site.steam }}"><span class="description">Steam</span></a></li>
-    {% endif %}
-
-    {% if site.youtube %}
-    <li><a class="fab fa-2x fa-youtube" href="https://youtube.com/channel/{{ site.youtube }}"><span class="description">YouTube</span></a></li>
-    {% endif %}
-
-    {% if site.vimeo %}
-    <li><a class="fab fa-2x fa-vimeo" href="https://vimeo.com/{{ site.vimeo }}"><span class="description">Vimeo</span></a></li>
-    {% endif %}
-
-    {% if site.soundcloud %}
-    <li><a class="fab fa-2x fa-soundcloud" href="https://soundcloud.com/{{ site.soundcloud }}"><span class="description">Soundcloud</span></a></li>
-    {% endif %}
-
-    {% if site.lastfm %}
-    <li><a class="fab fa-2x fa-lastfm" href="http://www.last.fm/user/{{ site.lastfm }}"><span class="description">Last.fm</span></a></li>
-    {% endif %}
-
-    {% if site.medium %}
-    <li><a class="fab fa-2x fa-medium" href="https://medium.com/@{{ site.medium }}"><span class="description">Medium</span></a></li>
-    {% endif %}
-
-    {% if site.tumblr %}
-    <li><a class="fab fa-2x fa-tumblr" href="https://{{ site.tumblr }}.tumblr.com/"><span class="description">Tumblr</span></a></li>
-    {% endif %}
-
-    {% if site.dribbble %}
-    <li><a class="fab fa-2x fa-dribbble" href="https://dribbble.com/{{ site.dribbble }}"><span class="description">Dribbble</span></a></li>
-    {% endif %}
-    
-    {% if site.blog_url %}
-    <li><a class="fas fa-2x fa-tags" href="{{ site.blog_url }}"><span class="description">Blog</span></a></li>
-    {% endif %}
-
-    {% if site.keybase %}
-    <li><a class="fab fa-2x fa-keybase" href="https://keybase.io/{{ site.keybase }}"><span class="description">Keybase</span></a></li>
-    {% endif %}
-
-    {% if site.email %}
-    <li><a class="fas fa-2x fa-envelope" href="mailto:{{ site.email }}"><span class="description">Email</span></a></li>
-    {% endif %}
-
-    {% if site.messenger %}
-    <li><a class="fab fa-2x fa-facebook-messenger" href="https://m.me/{{ site.messenger }}"><span class="description">Messenger</span></a></li>
-    {% endif %}
-
-    {% if site.telegram %}
-    <li><a class="fab fa-2x fa-telegram" href="https://telegram.me/{{ site.telegram }}"><span class="description">Telegram</span></a></li>
-    {% endif %}
-
-    {% if site.snapchat %}
-    <li><a class="fab fa-2x fa-snapchat" href="https://snapchat.com/add/{{ site.snapchat }}"><span class="description">Snapchat</span></a></li>
-    {% endif %}
-
-    {% include too_social.html %}
+    {% for link in links %}
+        {% assign username = site[link.name] %}
+        {% if username %}
+        {% assign default-icon-class = "fab fa-2x fa-" | append: link.name %}
+        <li>
+          <a class="{{ link.icon-class | default: default-icon-class }}" href="{{ link.url-scheme | default: '//' }}{{ link.url-pattern | replace: '__USERNAME__', username }}">
+            <span class="description">{{ link.name }}</span>
+          </a>
+        </li>
+        {% endif %}
+    {% endfor %}
 </ul>
