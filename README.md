@@ -54,7 +54,7 @@ If you wish to keep your theme frozen and not receive updates, then you can [rev
 
 > You may also optionally specify a branch, tag, or commit to use by appending an @ and the Git ref (e.g., epidrome/cover-card@v0.3). If you don't specify a Git ref, the master branch will be used.
 
-Please note that currently Github Pages seems to build your site only when you make a local change. This means that the theme might get updated but you don't receive the updated unless you make a local change in your forked repository.
+Please note that currently Github Pages seems to build your site only when you make a local change. This means that the theme might get updated but you will not receive the updated version unless you make a local change in your forked repository.
 
 You can always visit [releases](https://github.com/epidrome/cover-card/releases) for new features and check [issues](https://github.com/epidrome/cover-card/issues) for major bugs.
 
