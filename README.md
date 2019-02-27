@@ -24,7 +24,7 @@ Let's be honest with ourselves: How does an (abandoned) blog centered web site l
 
 ## Make it yours
 
-[Fork this repository](https://github.com/epidrome/cover-card/fork) and edit the files to your liking: As a first step, you may want to replace the images and edit the `_config.yml` with your online profiles. You can test the result almost in real-time at the Github Pages url displayed in the Settings tab (gh-pages branch).
+[Fork this repository](https://github.com/epidrome/cover-card/fork) and edit the files to your liking: As a first step, you may want to replace the images and edit the `_config.yml` with your online profiles. You can test the result almost in real-time at the `Github Pages` section in the Settings tab (gh-pages branch).
 
 ### Avatar or Logo
 
@@ -40,7 +40,7 @@ Edit the `_config.yml` file with your social media profiles by adding the respec
 
 ### Domain name
 
-Github Pages supports free custom domain names, so it is worth buying a domain name and puting it at the settings. If you want to use the theme with you user page (ie. username.github.io), then delete (or rename) your `master branch` and rename your `gh-branch` to `master` #13
+Github Pages supports free custom domain names, so it is worth buying a domain name and fill it in `Custom domain` field at the settings. If you want to use the theme with you user page (ie. username.github.io), then delete (or rename) your `master branch` and rename your `gh-branch` to `master` #13
 
 ### Working example
 
