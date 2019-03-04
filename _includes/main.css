@@ -77,6 +77,9 @@ a {
 .description {
     display: none;
 }
+.subdescription {
+    display: none;
+}
 
 @media (max-width: 450px) {
 ul {
@@ -120,6 +123,12 @@ a:hover {
     color: white;
     font-family: Helvetica;
     margin-left: 40px;
+}
+.subdescription {
+    display: inline-block;
+    color: white;
+    font-family: Helvetica;
+    margin-left: 35px;
 }
 .content {
     padding-top: 60px;
