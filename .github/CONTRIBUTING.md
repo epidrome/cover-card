@@ -17,3 +17,11 @@ Cover card is user-friendly in the sense that it requires a minimal amount of ke
 ### Developer centric
 
 Cover card is developer-centric in the sense that it assumes an advanced developer to configure the extra options or to make contributions and refinements.
+
+### The gh-pages branch is a demo of the theme
+
+Pull requests for bugs and improvements are welcome at the master branch, please use your local gh-page branch to test the proposed changes before you make a pull request at the master branch, which should include a link to your modified live version.
+
+### Open an issue before making a pull request
+
+Open an issue that describes your goal and motivation and get feedback in order to avoid misunderstandings and increase the chances of getting your pull-request accepted without delay or modifications.
