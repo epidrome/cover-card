@@ -20,7 +20,7 @@ The design rationale of this theme is to do less than other themes: "Less is mor
 
 The majority (99%) of the availabe jekyll themes offers a blog, but I have never been able to keep blog content (or its technology) updated over time.
 
-Let's be honest with ourselves: How does an (abandoned) blog centered web site looks to new visitors if we have not posted since two years ago?
+Let's be honest with ourselves: How does an (abandoned) blog centered web site look to new visitors if we have not posted since two years ago?
 
 ## Make it yours
 
