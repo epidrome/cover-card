@@ -21,9 +21,9 @@ body {
   opacity: 0.8;
 }
 #avatar {
-    height: 180px;
+    height: 200px;
     border-radius: 100%;
-    border: 3px solid white;
+    border: 0px solid white;
     margin-bottom: 40px;
 }
 h1 {
