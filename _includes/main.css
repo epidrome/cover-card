@@ -27,7 +27,7 @@ body {
     margin-bottom: 40px;
 }
 h1 {
-    color: white;
+    color: rgba(32, 50, 67, 0);
     font-weight: normal;
     letter-spacing: 0.1em;
     font-size: 4em;
