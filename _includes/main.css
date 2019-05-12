@@ -23,7 +23,7 @@ body {
 #avatar {
     height: 200px;
     border-radius: 100%;
-    border: 0px solid white;
+    border: 0px transparent;
     margin-bottom: 40px;
 }
 h1 {
