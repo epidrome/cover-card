@@ -40,7 +40,7 @@ Edit the `_config.yml` file with your social media profiles by adding the respec
 
 ### Domain name
 
-Github Pages supports free custom domain names, so it is worth buying a domain name and fill it in `Custom domain` field at the settings. If you want to use the theme with you user page (ie. username.github.io), then delete (or rename) your `master branch` and rename your `gh-branch` to `master` #13
+Github Pages supports free custom domain names, so it is worth buying a domain name and fill it in `Custom domain` field at the settings. If you want to use the theme with you user page (ie. username.github.io), then delete (or rename) your `master branch` and rename your `gh-branch` to `master` [#13](https://github.com/epidrome/cover-card/issues/13)
 
 ### Working example
 
