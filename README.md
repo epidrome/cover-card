@@ -6,7 +6,11 @@
 2. Edit the `_config.yml` with your online presence accounts and upload a background and an avatar image
 3. Go to `Settings`, scroll down to `Github Pages` and find your new home page link
 
-## Introduction
+## Dependencies
+
+This theme is based on [jekyll](https://jekyllrb.com/) and [jekyll-remote-theme](https://github.com/benbalter/jekyll-remote-theme). The above dependencies are natively supported by [Github Pages](https://pages.github.com/), which will build and deploy your site as soon as you make any change to your files, but you can also build it on your machine and deploy the resulting `_site` on any web server.
+
+## Motivation
 
 Create a cover page for your social media profiles, host it for free on Github Pages, and maintain it in minutes, not hours. [Demo](https://epidrome.github.io/cover-card)
 
