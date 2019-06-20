@@ -8,7 +8,7 @@
 
 ## Dependencies
 
-This theme is based on [jekyll](https://jekyllrb.com/) and [jekyll-remote-theme](https://github.com/benbalter/jekyll-remote-theme). The above dependencies are natively supported by [Github Pages](https://pages.github.com/), which will build and deploy your site as soon as you make any change to your files, but you can also build it on your machine and deploy the resulting `_site` on any web server.
+This theme is based on [jekyll](https://jekyllrb.com/) and [jekyll-remote-theme](https://github.com/benbalter/jekyll-remote-theme). The above dependencies are natively supported by [Github Pages](https://pages.github.com/), which will build and deploy your site as soon as you make any change to your files. The theme is also based on the icons from [Font Awesome](https://fontawesome.com/). 
 
 ## Motivation
 
