@@ -17,6 +17,7 @@
           <a class="{{ link.icon-class | default: default-icon-class }}" href="{{ link.url-scheme | default: '//' }}{{ link.url-pattern | replace: '__USERNAME__', username }}">
             <span class="description">{{ link.name }}</span>
           </a>
+            <p>Website</p>
         </li>
         {% endif %}
     {% endfor %}
