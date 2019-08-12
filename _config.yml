@@ -26,6 +26,7 @@ github-user: 'mygithub'
 #lastfm: ''
 #stack-overflow: ''
 #reddit: ''
+#rubygems: ''
 #medium:  ''
 tumblr: 'mytumblr'
 weibo: 'myweibo'
@@ -104,6 +105,10 @@ social-links:
 
   - name: reddit
     url-pattern: reddit.com/user/__USERNAME__
+
+  - name: rubygems
+    url-pattern: rubygems.org/profiles/__USERNAME__
+    icon-class: far fa-2x fa-gem
 
   - name: steam
     url-pattern: steamcommunity.com/id/__USERNAME__
