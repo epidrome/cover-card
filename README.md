@@ -2,7 +2,7 @@
 
 ## Quick set-up
 
-1. [Fork this repository](https://github.com/epidrome/cover-card/fork)
+1. [Use this template](https://github.com/epidrome/cover-card/generate)
 2. Edit the `_config.yml` with your online presence accounts and upload a background and an avatar image
 3. Go to `Settings`, scroll down to `Github Pages` and find your new home page link
 
