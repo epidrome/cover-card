@@ -64,7 +64,7 @@ You can always visit [releases](https://github.com/epidrome/cover-card/releases)
 
 ### Expert options
 
-You can find and locally overide advanced options (custom domain name, extra social icons, font styles) for this theme in the documentation (readme) at the [master branch](https://github.com/epidrome/cover-card/tree/master).
+You can find and locally overide advanced options (e.g., font, image, and icon styles) for this theme in the documentation (readme) at the [master branch](https://github.com/epidrome/cover-card/tree/master).
 
 ## Credits
 
