@@ -48,7 +48,7 @@ Github Pages supports free custom domain names, so it is worth buying a domain n
 
 ### Working example
 
-In addition to the configuration file in this repository, you can also [inspect a modified example of the configuration file](https://github.com/epidrome/home/blob/master/_config.yml), which is currently using the previous version of the theme.
+In addition to the configuration file in this repository, you can also [inspect a modified example of the legacy configuration file](https://github.com/epidrome/home/tree/0f333b28688a7a2e5eb84df768c277a03848d228), which is using the *legacy version* of the theme. Moreover, you can inspect a [custom (icons, links) example of the *current version*](https://github.com/epidrome/home).
 
 ### Updates
 
