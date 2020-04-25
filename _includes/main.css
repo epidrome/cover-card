@@ -120,6 +120,7 @@ a:hover {
     color: white;
     font-family: Helvetica;
     margin-left: 40px;
+    font-weight: normal;
 }
 .content {
     padding-top: 60px;
