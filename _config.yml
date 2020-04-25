@@ -152,9 +152,9 @@ social-links:
 
   - name: blog_url
     url-pattern: '__USERNAME__'
-    icon-class: fas fa-2x fa-tags
+    icon-class: fas fa-2x fa-blog
 
   - name: email
     url-scheme: 'mailto:'
     url-pattern: '__USERNAME__'
-    icon-class: fas fa-2x fa-envelope
+    icon-class: far fa-2x fa-envelope-open
