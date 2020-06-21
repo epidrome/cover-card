@@ -14,8 +14,6 @@ I love blogs. I have been making and following blogs since blogs existed in the 
 
 Don't get me wrong: Jekyll is an excellent system for making blogs, but your main web site should not be build around a blog. A blog is just an add-on to your main site that should be easy to turn off, or to switch to the next great blogging platform, system, or social media profile that supports blogging. Even [the father of jekyll](http://tom.preston-werner.com/) is not blogging very much over the years, then why have the blog at the center of the online presence. A blog is nice to have but it is not a must have.
 
-I understand that a jekyll theme without a blog might sound like a self contradiction, but jekyll has also motivated something even more useful than itself: seamless hosting with Github Pages. This theme takes advantage of both jekyll and Github Pages, in order to create something similar to [about.me](https://about.me/), without the price tag.
-
 ### Folders and files
 
 Honestly, I do not like hierarchies. Having multiple files spread over multiple folders, which include more folders and files is my definition of disorder. In my view, a few files (less than 10) with sensible names provide transparency and facilitate readability and edits.
