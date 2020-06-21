@@ -12,7 +12,13 @@ This theme is based on [jekyll](https://jekyllrb.com/) and [jekyll-remote-theme]
 
 ## Motivation
 
-Create a cover page for your social media profiles, host it for free on Github Pages, and maintain it in minutes, not hours. In addition to the link at the top, here is one more [Demo](https://epidrome.github.io/cover-card).
+Create a cover page for your social media profiles, host it for free on Github Pages, and maintain it in minutes, not hours. 
+
+I understand that a jekyll theme without a blog might sound like a self contradiction, but jekyll has also motivated something even more useful than itself: seamless hosting with Github Pages. 
+
+This theme takes advantage of both jekyll and Github Pages, in order to create something similar to [about.me](https://about.me/) and [carrd](https://carrd.co), without the price tag.
+
+In addition to the link at the top, here is one more [demo from my home page](https://github.com/epidrome/home).
 
 This theme is ideal for people or organizations who are busy enjoying their life or business and who want a simple business card for their online presence.
 
