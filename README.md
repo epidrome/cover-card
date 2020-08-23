@@ -16,7 +16,7 @@ Create a cover page for your social media profiles, host it for free on Github P
 
 I understand that a jekyll theme without a blog might sound like a self contradiction, but jekyll has also motivated something even more useful than itself: seamless hosting with Github Pages. 
 
-This theme takes advantage of both jekyll and Github Pages, in order to create something similar to [about.me](https://about.me/) and [carrd](https://carrd.co), without the price tag.
+This theme takes advantage of both jekyll and Github Pages, in order to create something similar to [linktree](https://linktr.ee), [about.me](https://about.me/) and [carrd](https://carrd.co), without the price tag.
 
 In addition to the link at the top, here is one more [demo from my home page](https://github.com/epidrome/home).
 
