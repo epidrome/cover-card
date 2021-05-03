@@ -1,5 +1,5 @@
 # Theme
-remote_theme: 'epidrome/cover-card@master'
+remote_theme: epidrome/cover-card
 
 # Title and tag line
 title: 'My name'
