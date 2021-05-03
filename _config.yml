@@ -37,10 +37,6 @@ messenger: 'myfbchat'
 
 social-links-order: [github-user, facebook, twitter, instagram, tumblr, pinterest, linkedin, youtube, vk, weibo, dribbble, messenger, blog_url, email]
 
-# Advanced settings
-plugins:
-  - jekyll-remote-theme
-
 # Yaml manifest of supported social links
 # Requirements:
 # `name`
