@@ -8,7 +8,7 @@
 
 ## Dependencies
 
-This theme is based on [jekyll](https://jekyllrb.com/) and [jekyll-remote-theme](https://github.com/benbalter/jekyll-remote-theme). The above dependencies are natively supported by [Github Pages](https://pages.github.com/), which will build and deploy your site as soon as you make any change to your files. The theme is also based on the icons from [Font Awesome](https://fontawesome.com/). 
+This theme is based on [jekyll](https://jekyllrb.com/) and [jekyll-remote-theme](https://github.com/benbalter/jekyll-remote-theme). These dependencies are natively supported by [Github Pages](https://pages.github.com/), which should build and deploy your site as soon as you make any change to your files. The theme is also based on the icons from [Font Awesome](https://fontawesome.com/). 
 
 ## Motivation
 
@@ -18,7 +18,7 @@ I understand that a jekyll theme without a blog might sound like a self contradi
 
 This theme takes advantage of both jekyll and Github Pages, in order to create something similar to [linktree](https://linktr.ee), [about.me](https://about.me/) and [carrd](https://carrd.co), but without the price tag.
 
-In addition to the link at the top, here is one more [demo from my home page](https://github.com/epidrome/home).
+In addition to the official demo link, here is one more [demo from my home page](https://github.com/epidrome/home).
 
 This theme is ideal for people or organizations who are busy enjoying their life or business and who want a simple business card for their online presence.
 
