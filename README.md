@@ -4,7 +4,7 @@
 
 1. [Use this template](https://github.com/epidrome/cover-card/generate)
 2. Edit the `_config.yml` with your online presence accounts and upload a background and an avatar image
-3. Go to `Settings`, scroll down to `Github Pages` and find your new home page link
+3. Go to the `Settings` tab, then select `Pages` from the sidebar, and find (gh-pages branch) your new home page link
 
 ## Dependencies
 
